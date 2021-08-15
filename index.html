@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- css link -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Responsive.css">
     <!-- fontawsome  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Bootstrap CSS -->
@@ -18,6 +19,9 @@
         <div class="container">
           <div class="col-sm-12 col-lg-12 col-md-12">
             <nav class="menuBar">
+
+              <input type="checkbox" id='check'>
+              <label for="check" class="checkBtn" > <i class="fas fa-bars"></i></label>
 
                 <div class="logo"><img src="./images/Kallyas_.png" alt=""></div>
 
@@ -72,7 +76,7 @@
          <div class=" col-lg-4 col-md-4 col-12 ">
           <div class="features blue">
             <div class="feature-icon"><i class="fas fa-file-alt"></i></div>
-            <div class="feature-title">
+            <div class="feature-title text-wrap">
               <h6>
 
                 Content Concept & Strategy.
@@ -285,8 +289,11 @@
         </div>
         <div class="col-lg-6">
          <div class="review-video common-padding">
-           <div class="overlay"></div>
-           <img src="images/6.png" alt="">
+           
+           <div class="videoImage">
+            
+            <img src="images/6.png" alt="">
+           </div>
            <div class="videoIcon">
             <i class="fas fa-play"></i>
 

@@ -1,0 +1,123 @@
+
+@media screen and (max-width:992px){
+    nav ul li{
+        font-size: 16px;
+        margin-left: 12px;
+    }
+    .header-content h2{
+        font-size: 35pt;
+    }
+    .features{
+    padding: 40px 25px;
+        }
+    .feature-icon{}
+    .feature-title::before{
+
+    }
+    .features h6{
+        font-size: 13px;
+    }
+    .feature-details{
+    margin-top: 30px;
+}
+    .feature-details p{
+    font-size: 11px;
+}
+/* feature end */
+
+/* business plan */
+.business-plan{}
+.about-plan h2{
+    font-size: 23px;
+    /* margin: 30px 0px; */
+    padding: 30px 0px;
+}
+.about-plan p{}
+.about-plan a{
+    margin: 10px 0px;
+}
+.plan-gallery{
+    margin-top: 40px;
+}
+
+}
+@media screen and (max-width:768px){
+    header{
+        height: auto;
+        padding-bottom: 70px 0px;
+        padding-bottom: 100px;
+    }
+    nav{
+        padding: 30px 0px;
+    }
+    .checkBtn{
+        display: block;
+    }
+    .menuBar ul{
+        position: fixed;
+        width: 100%;
+        background-color: rgb(9 9 35 / 80%);
+        /* height: 74vh; */
+        top: 70px;
+        left:-100%;
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        z-index: 1;
+        height: 62%;
+}
+    #check:checked~ul{
+        left: 0;
+    }
+    .menuBar ul li{
+        display: block;
+        text-align: center;
+        /* margin: 18px 0px; */
+        margin-top: 35px;
+    }
+    .menuBar ul li:hover{
+        color: #fb414e;
+    }
+    .menuBar ul li::before{
+        background: n;
+    }
+    .header-content{
+        height:auto
+    }
+    .header-content h2{
+        
+font-size: 35px;
+        
+margin: 20px 0px;
+    }
+    .header-paragraph p{
+        font-size: 12px;
+}
+        .header-content a{    
+            width: 100px;    
+        }
+        .header-paragraph{
+            margin: 23px auto;
+        }
+        .feature-section{
+            margin-top: -35px;
+        }
+        .features{
+            margin: 10px 0px;
+            padding: 25px;
+        }
+        .feature-title h6{
+    font-size: 13px;
+}
+        .feature-icon{}
+        .feature-details{
+    margin-top: 30px;
+}
+        .workBg{
+            width: 100%;
+            background-position: center;
+        }
+        
+}

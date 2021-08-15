@@ -21,14 +21,14 @@ header{
 }
 /* nav bar start */
 nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    
     padding: 70px 0px;
 }
 .logo{
     width: 150px;
+    display: inline-block;
 }
+
 
 ul{
     float: right; 
@@ -66,6 +66,18 @@ nav li::before{
 li:hover::before{
     opacity: 1;
     left: 2px;
+}
+
+.checkBtn{
+    float: right;
+    color: white;
+    font-size: 30px;
+    display: none;
+    cursor: pointer;
+    line-height: 30px;
+}
+#check{
+    display: none;
 }
 /* nav end */
 
@@ -286,7 +298,15 @@ color: #ffffff;
    -o-transform: translate(-50%,-50%);
    font-size: 30px;
 }
-.overlay{}
+.videoImage::before{
+    content: '';
+    height: 320px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: #00000066;
+}
+
 
 /* work */
 .work{
@@ -339,7 +359,7 @@ max-width: 100%;
  .contact-form{
     
  }
- input,select,textarea{
+ form input,select,textarea{
      width: 100%;
      margin: 10px 0px !important;
      padding: 10px 10px;
@@ -417,42 +437,3 @@ footer h6{
 
 
 
-@media screen and (max-width:768px){
-    header{
-        height: auto;
-        padding-bottom: 70px 0px;
-        padding-bottom: 100px;
-    }
-    nav{
-        padding: 30px 0px;
-    }
-    .header-content{
-        height:auto
-    }
-    .header-content h2{
-        
-font-size: 35px;
-        
-margin: 20px 0px;
-    }
-    .header-paragraph p{
-        font-size: 12px;
-}
-        .header-content a{    
-            width: 100px;    
-        }
-        .header-paragraph{
-            margin: 23px auto;
-        }
-        .feature-section{
-            margin-top: -35px;
-        }
-        .features{
-            margin: 10px 0px;
-        }
-        .workBg{
-            width: 100%;
-            background-position: center;
-        }
-        
-}
