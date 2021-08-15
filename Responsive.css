@@ -81,7 +81,7 @@
         color: #fb414e;
     }
     .menuBar ul li::before{
-        background: n;
+        background: none;
     }
     .header-content{
         height:auto
