@@ -1,3 +1,97 @@
+@media screen and (max-width:1200px){
+    nav ul li{
+        font-size: 16px;
+        margin-left: 12px;
+    }
+    .header-content h2{
+        font-size: 38pt;
+    }
+    .header-content p{
+    font-size: 14px;
+}
+    .features{
+    padding: 40px 25px;
+        }
+    .feature-icon{}
+    .feature-title::before{
+
+top: 20px;
+
+}
+ .features h6
+ {
+     font-size: 13px;
+ }
+ .feature-details{
+    margin-top: 30px;
+}
+    .feature-details p{
+    font-size: 12px;
+}
+/* feature end */
+
+/* business plan */
+.business-plan{}
+.about-plan h2{
+    font-size: 35px;
+    /* margin: 30px 0px; */
+    padding: 30px 0px;
+}
+.about-plan p{
+    font-size: 10px;
+}
+.about-plan a{
+    margin: 10px 0px;
+}
+.plan-gallery{
+    margin-top: 40px;
+}
+/* service */
+.serviceDetails h2{
+    
+font-size: 36px;
+}
+.services h6{
+    font-size: 16px;
+}
+/* review */
+.review h1{
+    font-size: 26pt;
+}
+
+/* work */
+.work-content h2{
+
+font-size: 33px;
+
+margin-top: 60px;
+}
+.work-content p{
+    
+font-size: 10px;
+}
+/* contact */
+.contact-details h1{
+    font-size: 30pt;
+}
+.contact-details p{   
+font-size: 14px;
+}
+/* footer */
+.footer-contact p{
+    font-size: 8px;
+}
+.submit-form{
+    
+margin: 10px 0px;
+}
+.copyright{ 
+ padding-top: 50px;
+ }
+ .copyright p{
+    font-size: 13px;
+}
+}
 
 @media screen and (max-width:992px){
     nav ul li{
@@ -13,33 +107,77 @@
     .feature-icon{}
     .feature-title::before{
 
-    }
-    .features h6{
-        font-size: 13px;
-    }
-    .feature-details{
+top: 20px;
+
+}
+ .features h6
+ {
+     font-size: 13px;
+ }
+ .feature-details{
     margin-top: 30px;
 }
     .feature-details p{
-    font-size: 11px;
+    font-size: 12px;
 }
 /* feature end */
 
 /* business plan */
 .business-plan{}
 .about-plan h2{
-    font-size: 23px;
+    font-size: 25px;
     /* margin: 30px 0px; */
     padding: 30px 0px;
 }
-.about-plan p{}
+.about-plan p{
+    font-size: 10px;
+}
 .about-plan a{
     margin: 10px 0px;
 }
 .plan-gallery{
     margin-top: 40px;
 }
+/* service */
+.serviceDetails h2{
+    
+font-size: 50px;
+}
+/* review */
+.review h1{
+    font-size: 34pt;
+}
 
+/* work */
+.work-content h2{
+
+font-size: 30px;
+}
+.work-content p{
+    
+font-size: 10px;
+}
+/* contact */
+.contact-details h1{
+    font-size: 50pt;
+}
+.contact-details p{   
+font-size: 14px;
+}
+/* footer */
+.footer-contact p{
+    font-size: 8px;
+}
+.submit-form{
+    
+margin: 10px 0px;
+}
+.copyright{ 
+ padding-top: 50px;
+ }
+ .copyright p{
+    font-size: 13px;
+}
 }
 @media screen and (max-width:768px){
     header{
@@ -47,6 +185,7 @@
         padding-bottom: 70px 0px;
         padding-bottom: 100px;
     }
+    
     nav{
         padding: 30px 0px;
     }
@@ -93,31 +232,209 @@ font-size: 35px;
 margin: 20px 0px;
     }
     .header-paragraph p{
-        font-size: 12px;
+        font-size: 10px;
 }
         .header-content a{    
             width: 100px;    
         }
         .header-paragraph{
             margin: 23px auto;
+            width: 100%;
         }
         .feature-section{
             margin-top: -35px;
         }
         .features{
             margin: 10px 0px;
-            padding: 25px;
+            padding: 30px 20px;
         }
         .feature-title h6{
-    font-size: 13px;
+    font-size: 15px;
 }
-        .feature-icon{}
+       
         .feature-details{
     margin-top: 30px;
 }
-        .workBg{
-            width: 100%;
-            background-position: center;
+
+/* about plan */
+.about-plan h2{
+    font-size: 40px;
+}
+/* service */
+.serviceDetails h2{
+    font-size: 40px;
+}
+/* review */
+.review h1{
+    
+font-size: 25pt;
+}
+/* work */
+ .workBg{
+  width: 100%;
+    background-position: center;
+  }
+  .work-content{}
+  .work-content h2{
+    font-size: 22px;
+}
+.work-services h6{
+    font-size: 7px;
+}
+  .work-services p{
+    font-size: 8px;
+}
+/* contact */
+.contact-details h1{
+    font-size: 40pt;
+}
+        footer{
+    
+        }
+        footer nav ul li{
+    font-size: 4px;
+}
+        .footer-contact{
+            
+        }
+        footer h6{
+           
+        }
+        .footer-contact p{
+            font-size: 4px !important;
+        }
+        
+        .footer-icon{
+            padding: 50px 0px;
+        }
+        .social-icon{
+          
+                width: 25px;        
+                height: 25px;        
+                /* font-size: 10px; */        
+                margin-right: 10px;
+        }
+        .social-icon i{
+           
+font-size: 10px;
+        }
+        
+        .submit-form{
+            
+        margin: 10px 0px;
+        }
+        
+        .subscribe input[type=submit]{
+            /* width: 20%; */
+            width: 60px;
+         }
+        .copyright{
+         /* margin-bottom: 13px; */
+         padding-top: 30px;
+         }
+         .copyright p{
+            font-size: 9px;
         }
         
 }
+
+@media screen and (max-width:575px){
+    nav ul li{
+        font-size: 16px;
+        margin-left: 12px;
+    }
+    .header-content h2{
+        font-size: 19pt;
+    }
+    .header-content p{
+    font-size: 10px;
+}
+    .features{
+    padding: 40px 25px;
+        }
+    .feature-icon{}
+    .feature-title::before{
+
+top: 20px;
+
+}
+ .features h6
+ {
+     font-size: 13px;
+ }
+ .feature-details{
+    margin-top: 30px;
+}
+    .feature-details p{
+    font-size: 12px;
+}
+/* feature end */
+
+/* business plan */
+.business-plan{}
+.about-plan h2{
+    font-size: 28px;
+    /* margin: 30px 0px; */
+    padding: 30px 0px;
+}
+.about-plan p{
+    font-size: 10px;
+}
+.about-plan a{
+    margin: 10px 0px;
+}
+.plan-gallery{
+    margin-top: 40px;
+}
+.galleryMenu li{
+    font-size: 13px;
+}
+/* service */
+.serviceDetails h2{
+    
+font-size: 27px;
+}
+.services h6{
+    font-size: 10px;
+}
+/* review */
+.review h1{
+    font-size: 19pt;
+}
+
+/* work */
+.work-content h2{
+
+font-size: 32px;
+
+margin-top: 60px;
+}
+.work-content p{
+    
+font-size: 7px;
+}
+/* contact */
+.contact-details h1{
+    font-size: 29pt;
+}
+.contact-details p{font-size: 11px;}
+/* footer */
+.footer-contact p{
+    font-size: 8px;
+}
+.submit-form{
+    
+margin: 10px 0px;
+}
+.copyright{
+ padding-top: 20px;
+ }
+ .copyright p{
+    font-size: 8px;
+}
+.subscribe input[type=submit]{
+    /* width: 20%; */
+    width: 77px;
+ }
+}
+
