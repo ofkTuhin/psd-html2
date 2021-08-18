@@ -1,15 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&family=Source+Sans+Pro:wght@900&display=swap');
+@font-face {
+
+    font-family:'Roboto-medium' ;
+    src: url(./fonts/Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+
+    font-family:'Roboto-light' ;
+    src: url(./fonts/Roboto/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: 'Roboto-regular';
+    src: url(./fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'SourceSansPro-black';
+    src: url(./fonts/Source_Sans_Pro/SourceSansPro-Black.ttf);
+}
+@font-face {
+    font-family: 'SourceSansPro-semiBold';
+    src: url(./fonts/Source_Sans_Pro/SourceSansPro-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'SourceSansPro-bold';
+    src: url(./fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf);
+}
+@font-face {
+    font-family: SourceSansPro-regular;
+    src: url(./fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf);
+}
 *{
     padding: 0px;
     margin: 0;
 }
-h2,h6{
+h1,h2{
     color: #1f1f1f;
-    font-family: 'Source Sans Pro',Bold;
-    
+    font-family: SourceSansPro-bold;
+}
+h6{
+    font-family: 'Roboto-medium';
 }
 p{
-    font-family: 'ROBOTO',Light;
+    font-family: 'Roboto-light';
     font-size: 16px;
 }
 img{
@@ -22,6 +54,10 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     height: 740px;
+}
+a{
+    font-family: 'Roboto-regular';
+    text-transform: capitalize;
 }
 /* nav bar start */
 nav{
@@ -45,7 +81,7 @@ li{
     margin-left: 28px;
     position: relative;
     font-size: 17px;
-    font-family: 'Roboto',Medium;
+    font-family: 'Roboto-medium';
 }
 a{
     text-decoration: none;
@@ -92,7 +128,7 @@ nav li::before{
     margin: auto;
 }
 .header-content h2{
-    font-family:'Source Sans Pro', sans-serif;
+    font-family: SourceSansPro-black;
     font-size: 45pt;
     color: #ffffff;
     margin: 60px 0px;
@@ -138,7 +174,7 @@ nav li::before{
 .features h6{
     color: #ffffff;
     font-size: 20px;
-    font-family: 'Roboto',Medium;
+   
 }
 .feature-title{
     margin: 30px 0px;
@@ -178,7 +214,7 @@ nav li::before{
 .about-plan h2{
     color: #ffffff;
     text-transform: capitalize;
-    font-family: 'Source Sans Pro', Black;
+    
     padding: 50px 0px;
     font-size: 40px;
 }
@@ -212,15 +248,19 @@ margin-top: 50px;
 font-size: 20px;
      
 color: #3c3c3c;
+     
+font-family: 'SourceSansPro-semiBold';
  } 
 .service p{
     color: #c9c9c9;
-    font-family: 'Roboto',Medium;
+    
 }
 .services{
     margin: 35px 0px;
 }
-.serviceDetails h2{margin: 35px 0px;font-size: 40px;}
+.serviceDetails h2{margin: 35px 0px;
+    font-size: 40px
+    ;}
 .serviceDetails p{
     
 margin-top: 30px;
@@ -242,7 +282,7 @@ margin-top: 30px;
     max-width: 100%;
 }
 .galleryMenu li{
-    font-family: 'Source Sans Pro',Regular;
+    font-family: 'SourceSansPro-regular';
 }
 .active,.galleryMenu li:hover{
     border-bottom: 1px solid #000000;
@@ -253,12 +293,12 @@ margin-top: 30px;
 .review{}
 .review-describe{}
 .review h1{
-    font-family: 'Source Sans Pro', Bold;
+    
     font-size: 32pt;
 }
 .review-describe p{
     color: #1f1f1f;
-    font-family: 'Roboto', Light;
+    /* font-family: 'Roboto', Light; */
     margin-top: 32px;
 }
 .review-describe a{
@@ -336,6 +376,7 @@ max-width: 100%;
 .work-content h2{
     font-size: 40px;
     margin: 20px 0px;
+    
 }
 .work-content p{
     margin: 35px 0px;
@@ -351,7 +392,7 @@ max-width: 100%;
 }
 .work-type h6{
     color: #5e5e5e;
-    font-family: 'Source Sans Pro',Regular;
+    font-family: 'SourceSansPro-regular';
 }
 /* work end */
  /* contact section  */
@@ -362,7 +403,7 @@ max-width: 100%;
     text-align: right;
  }
  .contact-details h1{
-    font-family: 'Source Sans Pro', Bold;
+  
     font-size: 34pt;
  }
  .contact-details p{
@@ -389,6 +430,7 @@ footer{
 footer h6{
     color: white;
     margin: 30px 0px;
+    font-family: 'Roboto-medium';
 }
 .footer-contact p{
     margin: 10px 0px;
@@ -446,7 +488,7 @@ footer h6{
     
  }
  .copyright{
-     padding: 70px 0px 50px;
+     padding: 80px 0px 50px;
      color: #495357;
  }
 
